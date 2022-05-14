@@ -4,11 +4,12 @@ import AnimatedLetters from '../animated_letters'
 import LogoTitle from '../../assets/images/logo-s.png'
 import './index.scss'
 import Logo from './logo'
+import Loader from 'react-loaders'
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
-  const nameArray = "Joe Delaney".split('');
+  const nameArray = " Joe Delaney".split('');
   const jobArray = "Software Engineer".split('');
 
   useEffect(() => {
@@ -27,10 +28,6 @@ const Home = () => {
             <br />
             <span className={`${letterClass} _13`}>I</span>
             <span className={`${letterClass} _14`}>'m</span>
-            <img
-              src={LogoTitle}
-              alt="JavaScript Developer Name, Web Developer Name"
-            />
             <AnimatedLetters
               letterClass={letterClass}
               strArray={nameArray}
@@ -50,6 +47,7 @@ const Home = () => {
           <Logo/>
         </div>
       </div>
+      <Loader type="line-scale"/>
     </>
   )
 }
