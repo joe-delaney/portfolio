@@ -1,9 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import AnimatedLetters from '../animated_letters'
-import LogoTitle from '../../assets/images/logo-s.png'
 import './index.scss'
-import Logo from './logo'
 import Loader from 'react-loaders'
 
 const Home = () => {
@@ -37,14 +35,13 @@ const Home = () => {
             <AnimatedLetters
               letterClass={letterClass}
               strArray={jobArray}
-              idx={22}
+              idx={19}
             />
           </h1>
-          <h2>Full Stack Developer / Travel Enthusiast / NY Knicks Fan</h2>
+          <h2>NEW YORK CITY, NEW YORK · (917) 670-9621 · JOSEPH.DELANEY546@GMAIL.COM</h2>
           <Link to="/contact" className="flat-button">
-            Contact Me
+            Resume
           </Link>
-          <Logo/>
         </div>
       </div>
       <Loader type="line-scale"/>

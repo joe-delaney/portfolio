@@ -1,0 +1,98 @@
+.carousel {
+    height: 470px;
+    display: flex;
+    position: absolute;
+    left:0;
+    top: 25%;
+
+    .project-container {
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .project {
+        width: 1000px;
+        height: 100%;
+        background-color: #32647f;
+        border-radius: 20px;
+        box-shadow: 0px 0px 0px 1px #000000cc, 0px, 4px, 4px, #0000004d;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .left {
+            flex: 4;
+            height: 90%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .left-container {
+                width: 90%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            h2 {
+                font-size: 24px;
+                color: #ffd700;
+            }
+            p {
+                font-size: 15px;
+                color: white;
+                font-weight: 400;
+            }
+
+            .technologies {
+                color: #ffd700;
+                text-decoration: none;
+                font-size: 15px;
+            }
+
+            span {
+                font-size: 12px;
+                font-weight: 600;
+                text-decoration: underline;
+            }
+
+            .flat-button {
+                color: #ffd700;
+                font-size: 13px;
+                font-weight: 700;
+                letter-spacing: 4px;
+                font-family: sans-serif;
+                text-decoration: none;
+                padding: 10px 18px;
+                border: 1px solid #ffd700;
+                float: left;
+                animation: fadeInAnimation 1s 1.8s backwards;
+                white-space: nowrap;
+                border-radius: 10px;
+                margin-top: 10px;
+                margin-right: 16px;
+
+                &:hover {
+                    background: #ffd700;
+                    color: #333;
+                }
+            }
+        }
+        .right {
+            flex: 8;
+            height: 80%;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+
+            img {
+                border-radius: 10px;
+                max-width: 650px;
+            }
+        }
+    }
+}
+
