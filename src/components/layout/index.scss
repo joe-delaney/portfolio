@@ -115,3 +115,26 @@
         }
     }
 }
+
+.container.projects-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    .arrow {
+        height: 50px;
+        position: absolute;
+        cursor: pointer;
+
+        &.left {
+            left: 180px;
+            top: 350px;
+        }
+
+        &.right {
+            right: 180px;
+            top: 350px;
+        }
+    }
+}

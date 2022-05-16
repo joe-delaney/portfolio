@@ -1,15 +1,17 @@
 .carousel {
-    height: 470px;
+    height: 450px;
     display: flex;
     position: absolute;
-    left:0;
-    top: 25%;
+    top: 150px;
+    left: 0;
+    transform: translateX(0vw);
+    transition: all 1s ease-out;
 
     .project-container {
-        width: 100vw;
         display: flex;
         align-items: center;
         justify-content: center;
+        width: 100vw;
     }
 
     .project {
@@ -90,9 +92,12 @@
 
             img {
                 border-radius: 10px;
-                max-width: 650px;
+                width: 90%;
             }
         }
     }
 }
+
+
+
 
