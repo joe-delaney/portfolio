@@ -1,6 +1,7 @@
 import "./index.scss";
 import Loader from "react-loaders";
 import SplashPageDemo from "../../assets/images/dispatch.gif"
+import NBAStatsDemo from "../../assets/images/nba-stats.gif"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faAngleRight, faAngleLeft} from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
@@ -18,12 +19,12 @@ const Projects = () => {
             githubLink: "https://github.com/joe-delaney/dispatch"
         },
         {
-            img: SplashPageDemo,
+            img: NBAStatsDemo,
             name: "NBA Statistics Dashboard",
-            description: <p>Dispatch is a full stack clone of the popular business messaging application, Slack. The application was built using <span className="technologies">React, Redux, Javascript, Ruby, Rails, and PostgreSQL. </span>
-                                    Using dispatch, users are able to create channels and group messages to communicate and collaborate effectively. Through the use of <span className="technologies">Rails Action Cable</span>, a websockets framework, users can send and receive messages in real time without the need to refresh their message feeds.</p>,
-            liveLink: "https://dispatch-client.herokuapp.com/#/",
-            githubLink: "https://github.com/joe-delaney/dispatch"
+            description: <p>This application provides users with an interactive dashboard to analyze player comparisons and quickly create custom data visualizations. This project was developed using <span className="technologies">Javascript, HTML5, CSS3, and D3js</span>. Through the use of <span className="technologies">asynchronous/await functions</span> that utilize <span className="technologies">AJAX API</span> calls to fetch user
+             query results from a third party API, users can select any past or present NBA players and relevant statistics.</p>,
+            liveLink: "https://nba-stats-dashboard.herokuapp.com/",
+            githubLink: "https://github.com/joe-delaney/NBA-Stat-Dashboard"
         },
         {
             img: SplashPageDemo,
@@ -44,6 +45,9 @@ const Projects = () => {
     return (
     <>
         <div className="container projects-page"> 
+                <h1>
+                    Projects
+                </h1>
                 <div className="carousel" style={{ transform: `translateX(-${currentProject * 100}vw)` }}>
                     {projects.map((project) => (
                         <div className="project-container">

@@ -2,7 +2,7 @@
     height: 450px;
     display: flex;
     position: absolute;
-    top: 150px;
+    top: 30%;
     left: 0;
     transform: translateX(0vw);
     transition: all .8s ease-out;
@@ -95,6 +95,41 @@
                 width: 90%;
             }
         }
+    }
+}
+
+h1 {
+    font-size: 80px;
+    font-family: 'Coolvetica';
+    color: #ffd700;
+    font-weight: 400;
+    position: absolute;
+    top: 0;
+    left: 10%;
+
+    &:before {
+        content: '<h1>';
+        font-family: 'La Belle Aurore', cursive;
+        color: #ffd700;
+        font-size: 18px;
+        position: absolute;
+        margin-top: -10px;
+        left: -10px;
+        opacity: 0.6;
+        line-height: 18px;
+    }
+
+    &:after {
+        content: '<h1/>';
+        font-family: 'La Belle Aurore', cursive;
+        color: #ffd700;
+        font-size: 18px;
+        line-height: 18px;
+        position: absolute;
+        left: -30px;
+        bottom: -20px;
+        margin-left: 20px;
+        opacity: 0.6;
     }
 }
 
