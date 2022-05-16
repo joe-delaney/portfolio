@@ -6,7 +6,7 @@ import {faAngleRight, faAngleLeft} from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
 
 const Projects = () => {
-    const [currentProject, setCurrent] = useState(0);
+    const [currentProject, setCurrent] = useState(2);
 
     const projects = [
         {
@@ -34,6 +34,12 @@ const Projects = () => {
             githubLink: "https://github.com/joe-delaney/dispatch"
         }
     ]
+
+    const handleClick = (direction) => {
+    direction === "left"
+      ? setCurrent(currentProject > 0 ? currentProject - 1 : 2)
+      : setCurrent(currentProject < projects.length - 1 ? currentProject + 1 : 0);
+    };
 
     return (
     <>
@@ -65,8 +71,8 @@ const Projects = () => {
                     </div>
                     ))}
                 </div>
-                <FontAwesomeIcon className="arrow left" icon={faAngleLeft} color="#FFF" />
-                <FontAwesomeIcon className="arrow right" icon={faAngleRight} color="#FFF" />
+                <FontAwesomeIcon className="arrow left" icon={faAngleLeft} color="#FFF" onClick={() => handleClick("left")}/>
+                <FontAwesomeIcon className="arrow right" icon={faAngleRight} color="#FFF" onClick={() => handleClick("right")}/>
       </div>
       <Loader type="line-scale"/>
     </>
