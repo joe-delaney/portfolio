@@ -129,13 +129,13 @@
         cursor: pointer;
 
         &.left {
-            left: 180px;
-            top: 60%;
+            left: 94px;
+            top: 55%;
         }
 
         &.right {
-            right: 180px;
-            top: 60%;
+            right: 14px;
+            top: 55%;
         }
     }
 
@@ -171,6 +171,32 @@
             bottom: -20px;
             margin-left: 20px;
             opacity: 0.6;
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .container.projects-page {
+
+        top:0px;
+
+        .arrow {
+            &.left {
+                left: 10px;
+            }
+        }
+
+        h1 {
+            font-size: 80px;
+            margin-top: 20px;
+        
+            &:before {
+                display: none;
+            }
+        
+            &:after {
+                display: none;
+            }
         }
     }
 }

@@ -39,9 +39,9 @@ const Home = () => {
             />
           </h1>
           <h2>NEW YORK CITY, NEW YORK · (917) 670-9621 · JOSEPH.DELANEY546@GMAIL.COM</h2>
-          <Link to="/contact" className="flat-button">
+          <a href="https://docs.google.com/document/d/126-1WP5w6iesF9RNtXsMnw2kZP_920JG7zuh3_B3ndU/export?format=pdf" className="flat-button">
             Resume
-          </Link>
+          </a>
         </div>
       </div>
       <Loader type="line-scale"/>

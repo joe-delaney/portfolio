@@ -7,7 +7,7 @@ import {faAngleRight, faAngleLeft} from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
 
 const Projects = () => {
-    const [currentProject, setCurrent] = useState(2);
+    const [currentProject, setCurrent] = useState(0);
 
     const projects = [
         {
@@ -29,10 +29,9 @@ const Projects = () => {
         {
             img: SplashPageDemo,
             name: "WeGo",
-            description: <p>Dispatch is a full stack clone of the popular business messaging application, Slack. The application was built using <span className="technologies">React, Redux, Javascript, Ruby, Rails, and PostgreSQL. </span>
-                                    Using dispatch, users are able to create channels and group messages to communicate and collaborate effectively. Through the use of <span className="technologies">Rails Action Cable</span>, a websockets framework, users can send and receive messages in real time without the need to refresh their message feeds.</p>,
-            liveLink: "https://dispatch-client.herokuapp.com/#/",
-            githubLink: "https://github.com/joe-delaney/dispatch"
+            description: <p>WeGo is a social media web application that allows users to meet new people and find new activities to do. WeGo was built using <span className="technologies">React, Redux, Javascript, NodeJS, Express</span>, and <span className="technologies">MongoDB.</span>This application leverages the use of <span className="technologies">RESTful routes</span> to implement <span className="technologies">CRUD functionality</span> and allow users to dynamically interact with the application and with other users.</p>,
+            liveLink: "https://wego-app.herokuapp.com/#/",
+            githubLink: "https://github.com/joe-delaney/WeGo"
         }
     ]
 
@@ -49,8 +48,8 @@ const Projects = () => {
                     Projects
                 </h1>
                 <div className="carousel" style={{ transform: `translateX(-${currentProject * 100}vw)` }}>
-                    {projects.map((project) => (
-                        <div className="project-container">
+                    {projects.map((project, idx) => (
+                        <div className="project-container" key={idx}>
                         <div className="project">
                             <div className="left">
                                 <div className="left-container">
@@ -58,7 +57,7 @@ const Projects = () => {
                                         <h2>{project.name}</h2>
                                         {project.description}
                                     </div>
-                                    <div>
+                                    <div className="left-links">
                                         <a href={project.liveLink} className="flat-button">
                                             Live Site
                                         </a>
@@ -70,6 +69,14 @@ const Projects = () => {
                             </div>
                             <div className="right">
                                 <img src={project.img}></img>
+                                    <div className="right-links">
+                                        <a href={project.liveLink} className="flat-button">
+                                            Live Site
+                                        </a>
+                                        <a href={project.githubLink} className="flat-button">
+                                            Github
+                                        </a>
+                                    </div>
                             </div>
                         </div>
                     </div>

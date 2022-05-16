@@ -15,8 +15,13 @@
     }
 
     .project {
-        width: 1000px;
-        height: 100%;
+        margin-left: 100px;
+        margin-right: 20px;
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        max-width: 80%;
+        min-height: max-content;
         background-color: #32647f;
         border-radius: 20px;
         box-shadow: 0px 0px 0px 1px #000000cc, 0px, 4px, 4px, #0000004d;
@@ -27,6 +32,7 @@
         .left {
             flex: 4;
             height: 90%;
+            max-width: 100%;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -93,6 +99,60 @@
             img {
                 border-radius: 10px;
                 width: 90%;
+            }
+
+            .right-links {
+                display: none;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .carousel {
+        .project {
+            margin-left: 20px;
+            flex-direction: column;
+            padding-top: 10px;
+            padding-bottom: 20px;
+            margin-top: 40px;
+
+            .left {
+                .left-links {
+                    display: none;
+                }
+            }
+
+            .right {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .right-links {
+                    display: flex;
+                }
+
+                .flat-button {
+                    color: #ffd700;
+                    font-size: 13px;
+                    font-weight: 700;
+                    letter-spacing: 4px;
+                    font-family: sans-serif;
+                    text-decoration: none;
+                    padding: 10px 18px;
+                    border: 1px solid #ffd700;
+                    float: left;
+                    animation: fadeInAnimation 1s 1.8s backwards;
+                    white-space: nowrap;
+                    border-radius: 10px;
+                    margin-top: 10px;
+                    margin-right: 16px;
+                
+                    &:hover {
+                        background: #ffd700;
+                        color: #333;
+                    }
+                }
             }
         }
     }
