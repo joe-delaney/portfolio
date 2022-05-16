@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.2dfa1dc3.css",
-    "main.js": "/static/js/main.6cecbc35.js",
-    "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
-    "static/media/nba-stats.gif": "/static/media/nba-stats.5f8571aed7ea3335e941.gif",
-    "static/media/dispatch.gif": "/static/media/dispatch.7f921a04edb2b95f1b43.gif",
-    "static/media/helvetica-neu.ttf": "/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
-    "static/media/headshot.jpg": "/static/media/headshot.58b6fecbf9cc7637fbd5.jpg",
-    "static/media/LaBelleAurore.woff": "/static/media/LaBelleAurore.9c5433c64baa43d1d274.woff",
-    "static/media/LaBelleAurore.woff2": "/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
-    "static/media/CoolveticaRg-Regular.woff": "/static/media/CoolveticaRg-Regular.8307bfa187bccdc55f4d.woff",
-    "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
-    "index.html": "/index.html",
-    "main.2dfa1dc3.css.map": "/static/css/main.2dfa1dc3.css.map",
-    "main.6cecbc35.js.map": "/static/js/main.6cecbc35.js.map",
-    "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
+    "main.css": "/joe-delaney/portfolio/static/css/main.c1c44ce7.css",
+    "main.js": "/joe-delaney/portfolio/static/js/main.57acfb77.js",
+    "static/js/787.a2cb61a6.chunk.js": "/joe-delaney/portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/nba-stats.gif": "/joe-delaney/portfolio/static/media/nba-stats.5f8571aed7ea3335e941.gif",
+    "static/media/dispatch.gif": "/joe-delaney/portfolio/static/media/dispatch.7f921a04edb2b95f1b43.gif",
+    "static/media/helvetica-neu.ttf": "/joe-delaney/portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/headshot.jpg": "/joe-delaney/portfolio/static/media/headshot.58b6fecbf9cc7637fbd5.jpg",
+    "static/media/LaBelleAurore.woff": "/joe-delaney/portfolio/static/media/LaBelleAurore.9c5433c64baa43d1d274.woff",
+    "static/media/LaBelleAurore.woff2": "/joe-delaney/portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/CoolveticaRg-Regular.woff": "/joe-delaney/portfolio/static/media/CoolveticaRg-Regular.8307bfa187bccdc55f4d.woff",
+    "static/media/CoolveticaRg-Regular.woff2": "/joe-delaney/portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/joe-delaney/portfolio/index.html",
+    "main.c1c44ce7.css.map": "/joe-delaney/portfolio/static/css/main.c1c44ce7.css.map",
+    "main.57acfb77.js.map": "/joe-delaney/portfolio/static/js/main.57acfb77.js.map",
+    "787.a2cb61a6.chunk.js.map": "/joe-delaney/portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2dfa1dc3.css",
-    "static/js/main.6cecbc35.js"
+    "static/css/main.c1c44ce7.css",
+    "static/js/main.57acfb77.js"
   ]
 }
