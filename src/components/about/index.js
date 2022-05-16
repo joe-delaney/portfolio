@@ -27,8 +27,9 @@ const About = () => {
                         make tangible contributions to the team.
                     </p>
                     <p align="LEFT">
-                        I love solving problems and am constantly looking for opportunities
-                        to learn more and enhance my skillset.   
+                        I have experience with <span className="technologies"> React,
+                        Redux, Javascript, Rails, Ruby, PostgreSQL, MongoDB, Express, NodeJS, Mongoose,
+                        HTML5, CSS3, D3</span> and <span className="technologies">SQL.</span> I love solving problems and am constantly looking for opportunities to learn more and enhance my skillset.    
                     </p>
                     <p>
                         Outside of software development, I love traveling, trying new restaurants,
@@ -39,7 +40,7 @@ const About = () => {
                 <div className="stage-cube-cont">
                     <div className="cubespinner">
                         <div className="face1">
-                            <FontAwesomeIcon icon={faReact} color="#61DBFB" />
+                            <FontAwesomeIcon className="devicon" icon={faReact} color="#61DBFB" />
                         </div>
                         <div className="face2">
                             <svg className="devicon" viewBox="0 0 128 128">
@@ -47,7 +48,7 @@ const About = () => {
                             </svg>  
                         </div>
                         <div className="face3">
-                            <FontAwesomeIcon icon={faJsSquare} color="#28A4D9" />
+                            <FontAwesomeIcon className="devicon" icon={faJsSquare} color="#28A4D9" />
                         </div>
                         <div className="face4">
                             <svg className="devicon" viewBox="0 0 128 128">
