@@ -125,3 +125,139 @@
     }
 }
 
+@media screen and (max-width: 768px) {
+    .nav-bar {
+        background: #181818;
+        width: 120%;
+        height: 50px;
+        display: flex;
+        min-height: 50px;
+        justify-content: space-between;
+        align-items: center;
+    
+        .logo {
+            display: flex;
+            margin-left: 10px;
+            padding: 8px 0;
+            justify-content: center;
+            align-items: center;
+    
+            img {
+                width: 35px;
+                height: auto;
+                border-radius: 10px;
+                margin: 0px;
+    
+                &.sub-logo {
+                    width: 50px;
+                }
+            }
+        }
+    
+        nav {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            margin-top: 0px;
+            height: 50px;
+            position: relative;
+            width: fit-content;
+            top: 0;
+            margin-right: 30px;
+    
+            a {
+                font-size: 24px;
+                color: #4d4d4e;
+                display: relative;
+                line-height: 51px;
+                height: 51px;
+                width: 51px;
+                position: relative;
+                text-decoration: none;
+                text-align: center;
+    
+                i {
+                    transition: all 0.3s ease-out;
+                }
+    
+                &:hover {
+                    color: #ffd700;
+    
+                    svg {
+                        opacity: 0;
+                    }
+    
+                    &:after {
+                        opacity: 1;
+                    }
+                }
+    
+                &:after {
+                    content: '';
+                    font-size: 9px;
+                    letter-spacing: 2px;
+                    position: absolute;
+                    bottom: 0;
+                    display: flex;
+                    text-align: center;
+                    opacity: 0;
+                    transition: all .3s ease-out;
+                }
+    
+                &:first-child {
+                    &::after {
+                        content: 'HOME';
+                        font-weight: 700;
+                    }
+                }
+            }
+    
+            a.about-link {
+                &:after {
+                    content: 'ABOUT';
+                    font-weight: 700;
+                }
+            }
+    
+            a.contact-link {
+                &:after {
+                    content: 'PROJECTS';
+                    font-weight: 700;
+                }
+            }
+    
+            a.active {
+                svg {
+                    color: #ffd700;
+                }
+            }
+        }
+    
+        ul {
+            width: 100%;
+            display: flex;
+            padding: 0;
+            list-style: none;
+            text-align: center;
+            position: relative;
+            align-items: center;
+            height: 50px;
+            margin: 0px;
+            bottom: 0px;
+            display: none;
+    
+            li {
+                a {
+                    padding: 7px 0;
+                    display: relative;
+                    font-size: 30px;
+                    line-height: 16px;
+    
+                    &:hover svg {
+                        color: #ffd700;
+                    }
+                }
+            }
+        }
+    }
+}
