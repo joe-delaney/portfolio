@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.212eedb7.css",
+    "main.css": "/static/css/main.f97a28ff.css",
     "main.js": "/static/js/main.d21b530f.js",
     "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
     "static/media/wego.gif": "/static/media/wego.7ddf2bd0b83adbc44c0f.gif",
@@ -13,12 +13,12 @@
     "static/media/CoolveticaRg-Regular.woff": "/static/media/CoolveticaRg-Regular.8307bfa187bccdc55f4d.woff",
     "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/index.html",
-    "main.212eedb7.css.map": "/static/css/main.212eedb7.css.map",
+    "main.f97a28ff.css.map": "/static/css/main.f97a28ff.css.map",
     "main.d21b530f.js.map": "/static/js/main.d21b530f.js.map",
     "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.212eedb7.css",
+    "static/css/main.f97a28ff.css",
     "static/js/main.d21b530f.js"
   ]
 }
