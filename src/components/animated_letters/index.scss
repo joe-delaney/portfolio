@@ -1,10 +1,14 @@
 .text-animate {
     display: inline-block;
     opacity: 0;
+    -webkit-animation: bounceIn;
     animation: bounceIn;
+    -webkit-animation-duration: 1s;
     animation-duration: 1s;
     animation-delay: 1s;
+    -webkit-animation-delay: 1s;
     animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
     min-width: 10px;
 }
 
@@ -12,6 +16,7 @@
     min-width: 10px;
     display: inline-block;
     animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
 
     &:hover {
         animation: rubberBand 1s;
@@ -21,12 +26,14 @@
 
 @for $i from 1 through 35 {
     .text-animate._#{$i} {
+        -webkit-animation-delay: #{$i / 10}s;
         animation-delay: #{$i / 10}s;
     }
 }
 
 @media screen and (max-width: 700px) {
     .text-animate {
-        display: relative;
+        // display: relative;
+        // animation: none;
     }
 }
