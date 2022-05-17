@@ -2,7 +2,8 @@
     width: 100%;
     height: 100%;
     position: absolute;
-    overflow: auto;
+    top: 0;
+    overflow: hidden;
 }
 
 .top-tags {
@@ -51,6 +52,7 @@
         vertical-align: middle;
         display: table-cell;
         max-height: 90%;
+        margin-left: 20px;
 
         h1 {
             font-size: 80px;
@@ -59,33 +61,7 @@
             font-weight: 400;
             margin-top: 0;
             position: relative;
-            margin-bottom: 40px;
             left: -10px;
-
-            &:before {
-                content: '<h1>';
-                font-family: 'La Belle Aurore', cursive;
-                color: #ffd700;
-                font-size: 18px;
-                position: absolute;
-                margin-top: -10px;
-                left: -10px;
-                opacity: 0.6;
-                line-height: 18px;
-            }
-
-            &:after {
-                content: '<h1/>';
-                font-family: 'La Belle Aurore', cursive;
-                color: #ffd700;
-                font-size: 18px;
-                line-height: 18px;
-                position: absolute;
-                left: -30px;
-                bottom: -20px;
-                margin-left: 20px;
-                opacity: 0.6;
-            }
         }
 
         p {
@@ -129,24 +105,25 @@
         cursor: pointer;
 
         &.left {
-            left: 94px;
-            top: 55%;
+            left: 90px;
+            top: 50%;
         }
 
         &.right {
-            right: 14px;
-            top: 55%;
+            right: 30px;
+            top: 50%;
         }
     }
 
     h1 {
-        font-size: 80px;
+        font-size: 40px;
         font-family: 'Coolvetica';
         color: #ffd700;
         font-weight: 400;
-        position: absolute;
-        top: 0;
-        left: 10%;
+        position: fixed;
+        top: 20px;
+        left: 150px;
+
     
         &:before {
             content: '<h1>';
@@ -178,39 +155,60 @@
 @media screen and (max-width: 1000px) {
     .container.projects-page {
 
-        top:0px;
-
         .arrow {
             &.left {
-                left: 10px;
+                left: 30px;
+                top: 400px;
+            }
+            
+            &.right {
+                right: 30px;
+                top: 400px;
             }
         }
 
         h1 {
-            font-size: 80px;
+            font-size: 40px;
             margin-top: 20px;
-        
-            &:before {
-                display: none;
+            margin-bottom: 0px;
+            left: 100px;
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .container.projects-page {
+
+        margin-top: 100px;
+
+        .arrow {
+            &.left {
+                left: 10px;
+                top: 250px;
             }
-        
-            &:after {
-                display: none;
+
+            &.right {
+                right: 10px;
+                top: 250px;
             }
+        }
+
+        h1 {
+            font-size: 40px;
+            margin-top: 20px;
+            margin-bottom: 0px;
+            left: 100px;
+            display: none;
         }
     }
 }
 
 @media screen and (max-width: 700px) {
     .container {
-        min-height: 0px;
-        position: relative;
+        min-height: 0;
+        height: fit-content;
+        justify-content: center;
     }
-
-    .page {
-        top: 50px;
-    }
-
 }
 
 @media screen and (max-width: 700px) {
@@ -256,6 +254,16 @@
     }
 }
 
+@media screen and (max-width: 950px) {
+    .container.about-page {
+        .text-zone {
+            h1 {
+                font-size: 50px;
+            }
+        }
+    }
+}
+
 @media screen and (max-height: 700px) {
     .container.about-page {
         .text-zone {
@@ -265,6 +273,38 @@
 
             p {
                 font-size: 14px;
+            }
+        }
+    }
+}
+
+@media screen and (max-height: 700px) {
+    .container.projects-page {
+    
+        .arrow {
+            &.left {
+                left: 10px;
+                top: 80%;
+            }
+    
+            &.right {
+                right: 14px;
+                top: 80%;
+            }
+        }
+    
+        h1 {
+            font-size: 40px;
+            margin-top: 20px;
+            margin-bottom: 0px;
+            display: none;
+    
+            &:before {
+                display: none;
+            }
+    
+            &:after {
+                display: none;
             }
         }
     }
