@@ -103,103 +103,12 @@
 
 @media screen and (max-width: 700px) { 
     .stage-cube-cont {
-        width: 100%;
-        height: 500px;
-        top: 0;
-        padding-top: 18%;
-        padding-bottom: 18%;
-        padding-left: 0%;
-        margin-left: 0;
-        position: relative;
-        right: 0;
-        overflow: auto;
         display: none;
-    }
-
-    .cubespinner {
-        div {
-            width: 100px;
-            height: 100px;
-        }
-
-        .face1 {
-            transform: translateZ(50px);
-        }
-        
-        .face2 {
-            transform: rotateY(90deg) translateZ(50px);
-        }
-        
-        .devicon {
-            height: 50px;
-            width: 50px;
-        }
-        
-        .face3 {
-            transform: rotateY(90deg) rotateX(90deg) translateZ(50px);
-        }
-        
-        .face4 {
-            transform: rotateY(180deg) rotateZ(90deg) translateZ(50px);
-        }
-        
-        .face5 {
-            transform: rotateY(-90deg) rotateZ(90deg) translateZ(50px);
-        }
-        
-        .face6 {
-            transform: rotateX(-90deg) translateZ(50px);
-        }
     }
 }
 
 @media screen and (max-height: 700px) { 
     .stage-cube-cont {
-        width: 100%;
-        height: 300px;
-        top: 0;
-        padding-top: 30px;
-        padding-bottom: 18%;
-        padding-left: 0%;
-        margin-left: 0;
-        position: relative;
-        right: 0;
-        overflow: auto;
-    }
-    
-    .cubespinner {
-        div {
-            width: 75px;
-            height: 75px;
-        }
-    
-        .face1 {
-            transform: translateZ(37.5px);
-        }
-    
-        .face2 {
-            transform: rotateY(90deg) translateZ(37.5px);
-        }
-    
-        .devicon {
-            height: 50px;
-            width: 50px;
-        }
-    
-        .face3 {
-            transform: rotateY(90deg) rotateX(90deg) translateZ(37.5px);
-        }
-    
-        .face4 {
-            transform: rotateY(180deg) rotateZ(90deg) translateZ(37.5px);
-        }
-    
-        .face5 {
-            transform: rotateY(-90deg) rotateZ(90deg) translateZ(37.5px);
-        }
-    
-        .face6 {
-            transform: rotateX(-90deg) translateZ(37.5px);
-        }
+        display: none;
     }
 }
