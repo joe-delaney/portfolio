@@ -70,7 +70,7 @@
             font-family: 'Coolvetica';
             font-weight: 700;
             letter-spacing: 5px;
-            animation: fadeIn 1s 1.8s backwards;
+            animation: fadeIn 1s .8s backwards;
     
             &:before {
                 display: none;
@@ -88,7 +88,7 @@
             font-size: 12px;
             font-family: sans-serif;
             letter-spacing: 3px;
-            animation: fadeIn 1s 1.8s backwards;
+            animation: fadeIn 1s .8s backwards;
         }
     
         .flat-button {
@@ -102,7 +102,7 @@
             border: 1px solid #ffd700;
             margin-top: 25px;
             float: left;
-            animation: fadeIn 1s 1.8s backwards;
+            animation: fadeIn 1s 0.8s backwards;
             white-space: nowrap;
             border-radius: 10px;
             max-width: 75px;
