@@ -208,6 +208,8 @@
         min-height: 0;
         height: 0;
         justify-content: center;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
     }
 }
 
