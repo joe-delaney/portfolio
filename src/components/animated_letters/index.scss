@@ -24,3 +24,9 @@
         animation-delay: #{$i / 10}s;
     }
 }
+
+@media screen and (max-width: 700px) {
+    .text-animate {
+        display: relative;
+    }
+}
