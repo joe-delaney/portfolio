@@ -2,6 +2,7 @@ import "./index.scss";
 import Loader from "react-loaders";
 import SplashPageDemo from "../../assets/images/dispatch.gif"
 import NBAStatsDemo from "../../assets/images/nba-stats.gif"
+import WeGoDemo from "../../assets/images/wego.gif"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faAngleRight, faAngleLeft} from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
@@ -27,7 +28,7 @@ const Projects = () => {
             githubLink: "https://github.com/joe-delaney/NBA-Stat-Dashboard"
         },
         {
-            img: SplashPageDemo,
+            img: WeGoDemo,
             name: "WeGo",
             description: <p>WeGo is a social media web application that allows users to meet new people and find new activities to do. WeGo was built using <span className="technologies">React, Redux, Javascript, NodeJS, Express</span>, and <span className="technologies">MongoDB.</span>This application leverages the use of <span className="technologies">RESTful routes</span> to implement <span className="technologies">CRUD functionality</span> and allow users to dynamically interact with the application and with other users.</p>,
             liveLink: "https://wego-app.herokuapp.com/#/",
