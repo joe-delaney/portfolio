@@ -1,6 +1,8 @@
-## Joe Delaney
+## Personal Portfolio
+This site represents my personal portfolio and was built using React, Javascript, HTML5, and CSS3.
 
-**Software Engineer**
+### Contact Info
+**Live Site**: [joe-delaney.com](https://joe-delaney.com)
 
 **Email**: Joseph.delaney546@gmail.com
 
