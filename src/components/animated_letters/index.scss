@@ -33,6 +33,17 @@
 
 @media screen and (max-width: 700px) {
     .text-animate {
-        // display: relative;
+        animation: none;
+        animation-duration: none;
+        animation-delay: none;
+        animation-fill-mode: none;
+        opacity: 1;
+    }
+
+    @for $i from 1 through 35 {
+        .text-animate._#{$i} {
+            animation-delay: none;
+        }
     }
 }
+
