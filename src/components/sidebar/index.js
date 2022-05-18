@@ -2,7 +2,7 @@ import "./index.scss";
 import { Link, NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faHome, faUser, faRectangleList, faAngleRight} from "@fortawesome/free-solid-svg-icons";
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faAngellist, faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import ProfilePhoto from "../../assets/images/headshot.jpg"
 
 
@@ -31,6 +31,11 @@ const Sidebar = () => (
             <li>
                 <a target="_blank" rel="noreferrer" href='https://github.com/joe-delaney'>
                     <FontAwesomeIcon icon={faGithub} color="#4d4d4e"/>
+                </a>
+            </li>
+            <li>
+                <a target="_blank" rel="noreferrer" href='https://angel.co/u/joe-delaney-6'>
+                    <FontAwesomeIcon icon={faAngellist} color="#4d4d4e"/>
                 </a>
             </li>
         </ul>
