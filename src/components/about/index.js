@@ -8,11 +8,11 @@ import Loader from "react-loaders";
 const About = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
 
-  useEffect(() => {
-    setTimeout(() => {
-      setLetterClass('text-animate-hover')
-    }, 3000)
-  }, [])
+    useEffect(() => {
+        setTimeout(() => {
+            setLetterClass('text-animate-hover')
+        }, 3000)
+    }, [])
 
     return (
         <div>
@@ -72,5 +72,4 @@ const About = () => {
         </div>
     )
 }
-
 export default About;
