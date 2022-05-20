@@ -6,5 +6,3 @@ This site represents my personal portfolio and was built using React, Javascript
 
 **Email**: Joseph.delaney546@gmail.com
 
-**Mobile**: (917)-670-9621
-
