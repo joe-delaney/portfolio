@@ -39,9 +39,17 @@ const Home = () => {
             />
           </h1>
           <h2>NEW YORK CITY, NEW YORK | (917) 670-9621 | JOSEPH.DELANEY546@GMAIL.COM</h2>
-          <a href="https://docs.google.com/document/d/126-1WP5w6iesF9RNtXsMnw2kZP_920JG7zuh3_B3ndU/export?format=pdf" className="flat-button">
-            Resume
-          </a>
+          <ul className="home-links">
+            <Link to="/about" className="flat-button">
+              About Me
+            </Link>
+            <Link to="/projects" className="flat-button">
+              Projects
+            </Link>
+            <a href="https://docs.google.com/document/d/126-1WP5w6iesF9RNtXsMnw2kZP_920JG7zuh3_B3ndU/export?format=pdf" className="flat-button">
+              Resume
+            </a>
+          </ul>
         </div>
       </div>
       <Loader type="line-scale"/>
