@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ed2ac7c4.css",
-    "main.js": "/static/js/main.c5b28aa6.js",
+    "main.css": "/static/css/main.099a0616.css",
+    "main.js": "/static/js/main.7790b3ca.js",
     "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
     "static/media/wego.gif": "/static/media/wego.7ddf2bd0b83adbc44c0f.gif",
     "static/media/nba-stats.gif": "/static/media/nba-stats.5f8571aed7ea3335e941.gif",
@@ -13,12 +13,12 @@
     "static/media/CoolveticaRg-Regular.woff": "/static/media/CoolveticaRg-Regular.8307bfa187bccdc55f4d.woff",
     "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/index.html",
-    "main.ed2ac7c4.css.map": "/static/css/main.ed2ac7c4.css.map",
-    "main.c5b28aa6.js.map": "/static/js/main.c5b28aa6.js.map",
+    "main.099a0616.css.map": "/static/css/main.099a0616.css.map",
+    "main.7790b3ca.js.map": "/static/js/main.7790b3ca.js.map",
     "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed2ac7c4.css",
-    "static/js/main.c5b28aa6.js"
+    "static/css/main.099a0616.css",
+    "static/js/main.7790b3ca.js"
   ]
 }
